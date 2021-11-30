@@ -10,7 +10,7 @@ public class Start {
         window.setLayout(new BorderLayout());//менедже компановки для других элементов
         window.setLocationRelativeTo(null);//окно по центру экрана
         window.setVisible(true);//видимость окна
-        TicTacToe game = new TicTacToe();//Создаем объект класса TicTacToe
+        Logic game = new Logic();//Создаем объект класса TicTacToe
         window.add(game);// Добавляем его в окно
 
     }
